@@ -4,7 +4,7 @@
   "description": "React Native module bridge to convert address to geo coordinates.",
   "main": "index.js",
   "peerDependencies": {
-    "react-native": "^0.4.2"
+    "react-native": ">=0.4.3"
   },
   "repository": {
     "type": "git",
