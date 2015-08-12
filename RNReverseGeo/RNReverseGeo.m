@@ -33,8 +33,7 @@ RCT_EXPORT_METHOD(reverseGeocodeLocation:(NSDictionary *)latLng callback:(RCTRes
                                        @"success" : @NO,
                                        @"error"  : error.localizedDescription
                                        };
-             RCTLogError(@"Error: %@ while geocoding: %@", location.debugDescription, error.localizedDescription);
-             
+
              callback(@[errDict]);
          } else {
              CLPlacemark *myPlacemark = [placemarks objectAtIndex:0];
